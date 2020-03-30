@@ -20,6 +20,7 @@
 //          DISPLAY "Tanggal " plus (i plus 7) plus ":" + newArr after turn to string
 //      ENDIF
 //  ENDFOR
+// ENDFUNCTION
 // 
 //  CALL FITNESS Function
 //
