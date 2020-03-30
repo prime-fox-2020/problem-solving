@@ -38,32 +38,31 @@ function nyafunction(){
     const anton = 4
     const budi = 5
     
-
-        let temp = [];
-        if(dates >= week){
-            if(nums % tono === 0){
-                temp.push('Tono');
-            }
-            if(nums % anton === 0){
-                temp.push('Anton');
-            } 
-            if(nums % budi === 0){
-                temp.push('Budi');
-            }
-
-            if(dates % 5 ===0){
-                temp = [];
-                temp.push('Tempat Fitness Tutup');
-            }
+    let temp = [];
+    if(dates >= week){
+        if(nums % tono === 0){
+            temp.push('Tono');
+        }
+        if(nums % anton === 0){
+            temp.push('Anton');
+        } 
+        if(nums % budi === 0){
+            temp.push('Budi');
         }
 
-        console.log('Tanggal ' + dates + ': ' + temp.join(', '));
-        dates+=1;
-        nums+=1;
-
-        if(dates !== 31){
-            nyafunction()
+        if(dates % 5 ===0){
+            temp = [];
+            temp.push('Tempat Fitness Tutup');
         }
+    }
+
+    console.log('Tanggal ' + dates + ': ' + temp.join(', '));
+    dates+=1;
+    nums+=1;
+
+    if(dates !== 31){
+        nyafunction()
+    }
 }
 
 nyafunction()
