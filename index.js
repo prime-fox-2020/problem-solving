@@ -16,7 +16,7 @@
  * IF inis i MOD 5 EQUAL 0 THEN
  * DISPLAY 'Tanggal ${i} : Tempat Fitness Tutup'
  * ELSE 
- * DISPLAY 'Tanggal ${i} : S{resut.join(', ')}
+ * DISPLAY 'Tanggal ${i} : ${resut.join(', ')}
  * END
  */
 
