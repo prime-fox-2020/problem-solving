@@ -24,12 +24,7 @@ function schedule(members, dateOpen, dateMonth, dayClosed) {
                 }
             }
             // debugger;
-            for (let j = 0; j < memberActive.length; j++) {
-                schedule += memberActive[j];
-                if (memberActive[j + 1] != undefined) {
-                    schedule += ", "
-                }
-            }
+            schedule += memberActive.join(", ")
             console.log(schedule);
         }
     }
