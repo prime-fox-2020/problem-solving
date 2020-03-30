@@ -29,7 +29,7 @@
         END IF
         ADD date TO 1
     END FOR
-END PSEUDOCODE*/
+END PSEUDOCODE */
 
 for(let date = 7; date <= 31; date++){
     let membersToday = []
