@@ -34,7 +34,7 @@ END PSEUDOCODE */
 for(let date = 7; date <= 31; date++){
     let membersToday = []
     if(date % 5 === 0){
-        console.log('Tanggal '+date+': Tempat Fitness Tutup')
+        console.log('Tanggal ' + date + ': Tempat Fitness Tutup')
     }else{
         let hariKe = date - 7
         if(hariKe % 2 === 0){
@@ -54,6 +54,6 @@ for(let date = 7; date <= 31; date++){
                 members += ', '+membersToday[i]
             }
         }
-        console.log('Tanggal '+date+':'+members)
+        console.log('Tanggal ' + date + ':'+members)
     }
 }
