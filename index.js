@@ -32,7 +32,7 @@ let nums = 0;
 let dates = 7;
 
 
-function nyafunction(){
+function gymcalendar(){
     let week = 7
     const tono = 2
     const anton = 4
@@ -60,9 +60,9 @@ function nyafunction(){
     dates+=1;
     nums+=1;
 
-    if(dates !== 31){
-        nyafunction()
+    if(dates !== 32){
+        gymcalendar()
     }
 }
 
-nyafunction()
+gymcalendar()
